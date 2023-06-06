@@ -1,0 +1,23 @@
+/* Write your CSS here */
+
+.bg-teams-match-container {
+  background-image: linear-gradient(to top, #1e293b, #a4261d);
+  min-height: 100vh;
+  width: 100vw;
+}
+.team-matches-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-banner {
+  width: 90%;
+  padding-top: 15px;
+}
+.match-card-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+}

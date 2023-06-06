@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.latest-matches-container {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.competing-team-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  padding: 15px;
+  border-radius: 15px;
+  width: 100%;
+}
+.competing-team {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+}
+
+.competing-team-details {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  text-align: end;
+}
+
+@media (min-width: 768px) {
+  .latest-matches-heading {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Bree Serif';
+  }
+  .competing-team-logo {
+    width: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .latest-matches-heading {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'Bree Serif';
+  }
+  .competing-team-logo {
+    width: 25px;
+  }
+}

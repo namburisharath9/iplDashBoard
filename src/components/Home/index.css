@@ -1,0 +1,73 @@
+/* Write your CSS here */
+@media (min-width: 768px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    background-size: cover;
+    min-height: 100vh;
+    width: 100vw;
+  }
+  .main-heading-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-img {
+    height: 60px;
+    padding-right: 10px;
+  }
+  .main-heading {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Bree Serif';
+    color: #ffffff;
+  }
+  .teams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .teams-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+    background-size: cover;
+    min-height: 100vh;
+    width: 100vw;
+  }
+  .main-heading-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo-img {
+    height: 25px;
+    padding-right: 10px;
+  }
+  .main-heading {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Bree Serif';
+    color: #ffffff;
+  }
+  .teams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .teams-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
